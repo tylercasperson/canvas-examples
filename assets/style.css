@@ -33,3 +33,7 @@ button {
 .cursorParticlesBtn {
   background-image: url('./images/cursorParticles.png');
 }
+
+.flowersBtn {
+  background-image: url('./images/flower.png');
+}
