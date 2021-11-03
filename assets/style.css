@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 canvas {
@@ -9,4 +10,26 @@ canvas {
   background: black;
   top: 0;
   left: 0;
+}
+
+.introduction {
+  color: white;
+  font-size: 15pt;
+  text-align: center;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-size: cover;
+  border: 5pt solid black;
+}
+
+.animationZoomBtn {
+  background-image: url('./images/animationZoom.png');
+}
+
+.cursorParticlesBtn {
+  background-image: url('./images/cursorParticles.png');
 }
