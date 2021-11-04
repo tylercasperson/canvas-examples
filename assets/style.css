@@ -68,3 +68,26 @@ button {
   text-align: center;
   width: 100%;
 }
+
+.fractalTreeBtn {
+  background-image: url('./images/fractalTree.png');
+}
+
+.generate-tree-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 20px 30px;
+  border-radius: 50px;
+  background: brown;
+  color: white;
+  font-size: 20px;
+  width: 300px;
+  overflow: hidden;
+}
