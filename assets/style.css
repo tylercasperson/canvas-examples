@@ -114,3 +114,12 @@ button {
   width: 300px;
   overflow: hidden;
 }
+
+.particleDropCanvas {
+  z-index: -10;
+  background: linear-gradient(#25364f, #4d71a5, #9bc4ff);
+}
+
+.particleTrailBtn {
+  background-image: url('./images/particleTrail.png');
+}
